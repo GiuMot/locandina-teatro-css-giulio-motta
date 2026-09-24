@@ -1,0 +1,26 @@
+/* Non ho ben compreso se il font sans serif deve essere applicato a tutto, in tal caso eccolo */
+
+/* *{
+      font-family: sans-serif;
+} */
+
+
+h1 {
+
+    color: rgba(230,57,70 ,1);
+    font-family: sans-serif;
+
+}
+
+section {
+
+    padding: 10px 20px 10px 20px;
+    margin: 20px 10px;
+    border: 3px solid gold;
+    border-radius: 20px;
+}
+
+dt::before{
+
+content: "🎭";
+}
